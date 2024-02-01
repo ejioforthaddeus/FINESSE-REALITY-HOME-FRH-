@@ -1,0 +1,18 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for contact.php
+RewriteRule ^contact$  contact.html
+RewriteRule ^home$   index.html 
+RewriteRule ^index$   index.html
+RewriteRule ^about$   about.html 
+RewriteRule ^projects$   project.html
+RewriteRule ^services$   services.html 
+RewriteRule ^our_team$   team.html
+RewriteRule ^team_details$   team-details.html  
+RewriteRule ^sign_in$   sign_in.html 
+RewriteRule ^sign_up$   sign_up.html 
+
+
+
+
